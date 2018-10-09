@@ -1,0 +1,57 @@
+@import 'reset.css';
+
+body {
+  background-color: pink;
+  padding: 12px;
+}
+
+.game {
+  background-color: yellow;
+  margin: 0 auto;
+  padding: 12px;
+  max-width: 600px;
+  min-height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start {
+  padding: 6px 24px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  margin-bottom: 24px;
+
+  color: blue;
+  font-size: 48px;
+}
+
+.answers {
+  margin-top: 0;
+}
+.answers li {
+  text-align: center;
+  padding: 6px 24px;
+  width: 100%;
+}
+
+.btn {
+  border: 2px solid transparent;
+}
+.btn:hover {
+  background-color: pink;
+  border-color: purple;
+  cursor: pointer;
+}
+
+.time {
+  margin-top: 24px;
+}
